@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8479B2642226FC61004B25DA /* ActionSheetTransitioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2632226FC61004B25DA /* ActionSheetTransitioningManager.swift */; };
+		8479B2662226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2652226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift */; };
+		8479B2682226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2672226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift */; };
+		8479B27122275B14004B25DA /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B26F22275B14004B25DA /* SimpleTableViewCell.swift */; };
+		8479B27222275B14004B25DA /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8479B27022275B14004B25DA /* SimpleTableViewCell.xib */; };
+		8479B27522276822004B25DA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B27422276822004B25DA /* CustomView.swift */; };
+		8479B27722276862004B25DA /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8479B27622276862004B25DA /* CustomView.xib */; };
+		848478192225A98900410D0E /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848478172225A98900410D0E /* CustomViewController.swift */; };
+		8484781A2225A98900410D0E /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848478182225A98900410D0E /* CustomViewController.xib */; };
 		8491C5CC2220C41100C413D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5CB2220C41100C413D4 /* AppDelegate.swift */; };
-		8491C5CE2220C41100C413D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5CD2220C41100C413D4 /* ViewController.swift */; };
-		8491C5D12220C41100C413D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8491C5CF2220C41100C413D4 /* Main.storyboard */; };
 		8491C5D32220C41300C413D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8491C5D22220C41300C413D4 /* Assets.xcassets */; };
 		8491C5D62220C41300C413D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8491C5D42220C41300C413D4 /* LaunchScreen.storyboard */; };
 		8491C5E12220C41300C413D4 /* ActionSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5E02220C41300C413D4 /* ActionSheetTests.swift */; };
 		8491C5EC2220C41300C413D4 /* ActionSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5EB2220C41300C413D4 /* ActionSheetUITests.swift */; };
+		8491C5FA2220C47A00C413D4 /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */; };
+		8491C5FC2220CB8C00C413D4 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5FB2220CB8C00C413D4 /* ActionSheet.swift */; };
+		8491C5FE2220D2E100C413D4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8479B2632226FC61004B25DA /* ActionSheetTransitioningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetTransitioningManager.swift; sourceTree = "<group>"; };
+		8479B2652226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetDismissAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		8479B2672226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetPresentAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		8479B26F22275B14004B25DA /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		8479B27022275B14004B25DA /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
+		8479B27422276822004B25DA /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8479B27622276862004B25DA /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		848478172225A98900410D0E /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		848478182225A98900410D0E /* CustomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
 		8491C5C82220C41100C413D4 /* ActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8491C5CB2220C41100C413D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8491C5CD2220C41100C413D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8491C5D02220C41100C413D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8491C5D22220C41300C413D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8491C5D52220C41300C413D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8491C5D72220C41300C413D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +64,9 @@
 		8491C5E72220C41300C413D4 /* ActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8491C5EB2220C41300C413D4 /* ActionSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetUITests.swift; sourceTree = "<group>"; };
 		8491C5ED2220C41300C413D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
+		8491C5FB2220CB8C00C413D4 /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8479B2622226FC4A004B25DA /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				8479B2632226FC61004B25DA /* ActionSheetTransitioningManager.swift */,
+				8479B2652226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift */,
+				8479B2672226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		8479B2732227618D004B25DA /* actionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				8491C5FB2220CB8C00C413D4 /* ActionSheet.swift */,
+			);
+			path = actionSheet;
+			sourceTree = "<group>";
+		};
 		8491C5BF2220C41100C413D4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +135,8 @@
 		8491C5CA2220C41100C413D4 /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				8491C5FF2220D35C00C413D4 /* Classes */,
 				8491C5CB2220C41100C413D4 /* AppDelegate.swift */,
-				8491C5CD2220C41100C413D4 /* ViewController.swift */,
-				8491C5CF2220C41100C413D4 /* Main.storyboard */,
 				8491C5D22220C41300C413D4 /* Assets.xcassets */,
 				8491C5D42220C41300C413D4 /* LaunchScreen.storyboard */,
 				8491C5D72220C41300C413D4 /* Info.plist */,
@@ -123,6 +160,23 @@
 				8491C5ED2220C41300C413D4 /* Info.plist */,
 			);
 			path = ActionSheetUITests;
+			sourceTree = "<group>";
+		};
+		8491C5FF2220D35C00C413D4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8479B27422276822004B25DA /* CustomView.swift */,
+				8479B27622276862004B25DA /* CustomView.xib */,
+				8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */,
+				848478172225A98900410D0E /* CustomViewController.swift */,
+				848478182225A98900410D0E /* CustomViewController.xib */,
+				8479B26F22275B14004B25DA /* SimpleTableViewCell.swift */,
+				8479B27022275B14004B25DA /* SimpleTableViewCell.xib */,
+				8479B2732227618D004B25DA /* actionSheet */,
+				8479B2622226FC4A004B25DA /* animation */,
+				8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8491C5F32220C41300C413D4 /* Build configuration list for PBXNativeTarget "ActionSheetTests" */;
 			buildPhases = (
+				2AB846DD6086EFD865B91843 /* [CP] Check Pods Manifest.lock */,
 				8491C5D82220C41300C413D4 /* Sources */,
 				8491C5D92220C41300C413D4 /* Frameworks */,
 				8491C5DA2220C41300C413D4 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8491C5F62220C41300C413D4 /* Build configuration list for PBXNativeTarget "ActionSheetUITests" */;
 			buildPhases = (
+				1EC110A4EB482CF51FC7C592 /* [CP] Check Pods Manifest.lock */,
 				8491C5E32220C41300C413D4 /* Sources */,
 				8491C5E42220C41300C413D4 /* Frameworks */,
 				8491C5E52220C41300C413D4 /* Resources */,
@@ -230,8 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8491C5D62220C41300C413D4 /* LaunchScreen.storyboard in Resources */,
+				8479B27722276862004B25DA /* CustomView.xib in Resources */,
+				8479B27222275B14004B25DA /* SimpleTableViewCell.xib in Resources */,
+				8484781A2225A98900410D0E /* CustomViewController.xib in Resources */,
 				8491C5D32220C41300C413D4 /* Assets.xcassets in Resources */,
-				8491C5D12220C41100C413D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +309,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EC110A4EB482CF51FC7C592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActionSheetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AB846DD6086EFD865B91843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActionSheetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8491C5C42220C41100C413D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8491C5CE2220C41100C413D4 /* ViewController.swift in Sources */,
+				8479B2682226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift in Sources */,
 				8491C5CC2220C41100C413D4 /* AppDelegate.swift in Sources */,
+				8491C5FC2220CB8C00C413D4 /* ActionSheet.swift in Sources */,
+				8491C5FA2220C47A00C413D4 /* ExamplesViewController.swift in Sources */,
+				8479B2642226FC61004B25DA /* ActionSheetTransitioningManager.swift in Sources */,
+				8479B27522276822004B25DA /* CustomView.swift in Sources */,
+				8491C5FE2220D2E100C413D4 /* UIColorExtension.swift in Sources */,
+				8479B27122275B14004B25DA /* SimpleTableViewCell.swift in Sources */,
+				848478192225A98900410D0E /* CustomViewController.swift in Sources */,
+				8479B2662226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +406,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8491C5CF2220C41100C413D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8491C5D02220C41100C413D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8491C5D42220C41300C413D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
