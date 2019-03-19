@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842815062229FF2100FAE50B /* ActionSheet+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842815052229FF2100FAE50B /* ActionSheet+UIViewController.swift */; };
+		84281508222A00F700FAE50B /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84281507222A00F700FAE50B /* UIView+Constraints.swift */; };
+		8428150A222A015200FAE50B /* ActionSheet+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84281509222A015200FAE50B /* ActionSheet+UIView.swift */; };
 		8479B2642226FC61004B25DA /* ActionSheetTransitioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2632226FC61004B25DA /* ActionSheetTransitioningManager.swift */; };
-		8479B2662226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2652226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift */; };
-		8479B2682226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2672226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift */; };
+		8479B2662226FCF0004B25DA /* ActionSheetDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2652226FCF0004B25DA /* ActionSheetDismissAnimationController.swift */; };
+		8479B2682226FE1A004B25DA /* ActionSheetPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B2672226FE1A004B25DA /* ActionSheetPresentAnimationController.swift */; };
 		8479B27122275B14004B25DA /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B26F22275B14004B25DA /* SimpleTableViewCell.swift */; };
 		8479B27222275B14004B25DA /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8479B27022275B14004B25DA /* SimpleTableViewCell.xib */; };
 		8479B27522276822004B25DA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479B27422276822004B25DA /* CustomView.swift */; };
@@ -24,6 +27,7 @@
 		8491C5FA2220C47A00C413D4 /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */; };
 		8491C5FC2220CB8C00C413D4 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5FB2220CB8C00C413D4 /* ActionSheet.swift */; };
 		8491C5FE2220D2E100C413D4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */; };
+		84D681952228CE77007586AD /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D681942228CE77007586AD /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842815052229FF2100FAE50B /* ActionSheet+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionSheet+UIViewController.swift"; sourceTree = "<group>"; };
+		84281507222A00F700FAE50B /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		84281509222A015200FAE50B /* ActionSheet+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionSheet+UIView.swift"; sourceTree = "<group>"; };
 		8479B2632226FC61004B25DA /* ActionSheetTransitioningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetTransitioningManager.swift; sourceTree = "<group>"; };
-		8479B2652226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetDismissAnimatedTransitioning.swift; sourceTree = "<group>"; };
-		8479B2672226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetPresentAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		8479B2652226FCF0004B25DA /* ActionSheetDismissAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetDismissAnimationController.swift; sourceTree = "<group>"; };
+		8479B2672226FE1A004B25DA /* ActionSheetPresentAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetPresentAnimationController.swift; sourceTree = "<group>"; };
 		8479B26F22275B14004B25DA /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
 		8479B27022275B14004B25DA /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 		8479B27422276822004B25DA /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
@@ -67,6 +74,7 @@
 		8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
 		8491C5FB2220CB8C00C413D4 /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
 		8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		84D681942228CE77007586AD /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				8479B2632226FC61004B25DA /* ActionSheetTransitioningManager.swift */,
-				8479B2652226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift */,
-				8479B2672226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift */,
+				8479B2652226FCF0004B25DA /* ActionSheetDismissAnimationController.swift */,
+				8479B2672226FE1A004B25DA /* ActionSheetPresentAnimationController.swift */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -108,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				8491C5FB2220CB8C00C413D4 /* ActionSheet.swift */,
+				842815052229FF2100FAE50B /* ActionSheet+UIViewController.swift */,
+				84281509222A015200FAE50B /* ActionSheet+UIView.swift */,
 			);
 			path = actionSheet;
 			sourceTree = "<group>";
@@ -135,7 +145,8 @@
 		8491C5CA2220C41100C413D4 /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				8491C5FF2220D35C00C413D4 /* Classes */,
+				84922F9D222C454A00C6C103 /* examples */,
+				8491C5FF2220D35C00C413D4 /* classes */,
 				8491C5CB2220C41100C413D4 /* AppDelegate.swift */,
 				8491C5D22220C41300C413D4 /* Assets.xcassets */,
 				8491C5D42220C41300C413D4 /* LaunchScreen.storyboard */,
@@ -162,21 +173,30 @@
 			path = ActionSheetUITests;
 			sourceTree = "<group>";
 		};
-		8491C5FF2220D35C00C413D4 /* Classes */ = {
+		8491C5FF2220D35C00C413D4 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				8479B2732227618D004B25DA /* actionSheet */,
+				8479B2622226FC4A004B25DA /* animation */,
+				8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */,
+				84D681942228CE77007586AD /* UIViewExtension.swift */,
+				84281507222A00F700FAE50B /* UIView+Constraints.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		84922F9D222C454A00C6C103 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */,
 				8479B27422276822004B25DA /* CustomView.swift */,
 				8479B27622276862004B25DA /* CustomView.xib */,
-				8491C5F92220C47A00C413D4 /* ExamplesViewController.swift */,
 				848478172225A98900410D0E /* CustomViewController.swift */,
 				848478182225A98900410D0E /* CustomViewController.xib */,
 				8479B26F22275B14004B25DA /* SimpleTableViewCell.swift */,
 				8479B27022275B14004B25DA /* SimpleTableViewCell.xib */,
-				8479B2732227618D004B25DA /* actionSheet */,
-				8479B2622226FC4A004B25DA /* animation */,
-				8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */,
 			);
-			path = Classes;
+			path = examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,16 +381,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8479B2682226FE1A004B25DA /* ActionSheetPresentAnimatedTransitioning.swift in Sources */,
+				8479B2682226FE1A004B25DA /* ActionSheetPresentAnimationController.swift in Sources */,
 				8491C5CC2220C41100C413D4 /* AppDelegate.swift in Sources */,
 				8491C5FC2220CB8C00C413D4 /* ActionSheet.swift in Sources */,
 				8491C5FA2220C47A00C413D4 /* ExamplesViewController.swift in Sources */,
 				8479B2642226FC61004B25DA /* ActionSheetTransitioningManager.swift in Sources */,
 				8479B27522276822004B25DA /* CustomView.swift in Sources */,
+				842815062229FF2100FAE50B /* ActionSheet+UIViewController.swift in Sources */,
 				8491C5FE2220D2E100C413D4 /* UIColorExtension.swift in Sources */,
+				84D681952228CE77007586AD /* UIViewExtension.swift in Sources */,
 				8479B27122275B14004B25DA /* SimpleTableViewCell.swift in Sources */,
+				84281508222A00F700FAE50B /* UIView+Constraints.swift in Sources */,
 				848478192225A98900410D0E /* CustomViewController.swift in Sources */,
-				8479B2662226FCF0004B25DA /* ActionSheetDismissAnimatedTransitioning.swift in Sources */,
+				8428150A222A015200FAE50B /* ActionSheet+UIView.swift in Sources */,
+				8479B2662226FCF0004B25DA /* ActionSheetDismissAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5SR9GRPP6;
 				INFOPLIST_FILE = ActionSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,7 +572,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.renan.dias.ActionSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -558,6 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5SR9GRPP6;
 				INFOPLIST_FILE = ActionSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,7 +591,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.renan.dias.ActionSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -6,4 +6,11 @@
 //  Copyright © 2019 Renan Benatti Dias. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+internal extension UIView {
+    
+    static var nibName: String {
+        return String(describing: self)
+    }
+}

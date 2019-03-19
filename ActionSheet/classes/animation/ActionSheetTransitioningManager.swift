@@ -11,10 +11,10 @@ import UIKit
 final class ActionSheetTransitioningManager: NSObject, UIViewControllerTransitioningDelegate {
     
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return ActionSheetPresentAnimatedTransitioning()
+        return ActionSheetPresentAnimationController()
     }
     
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return ActionSheetDismissAnimatedTransitioning()
+        return ActionSheetDismissAnimationController()
     }
 }

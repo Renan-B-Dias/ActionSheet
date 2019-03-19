@@ -15,35 +15,39 @@ class ExamplesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        
         view.addSubview(tableView)
         
-        let constraints = [
-            tableView.topAnchor.constraint(equalTo: view.topAnchor),
-            tableView.leftAnchor.constraint(equalTo: view.leftAnchor),
-            tableView.rightAnchor.constraint(equalTo: view.rightAnchor),
-            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
-        ]
+        tableView.snapToEdgesOf(view: view)
         
-        NSLayoutConstraint.activate(constraints)
+        // --'
+        view.translatesAutoresizingMaskIntoConstraints = true
         
         tableView.dataSource = self
         tableView.delegate = self
         
-        tableView.register(UINib(nibName: "SimpleTableViewCell", bundle: nil), forCellReuseIdentifier: "SimpleTableViewCell")
+        tableView.register(UINib(nibName: SimpleTableViewCell.nibName, bundle: nil), forCellReuseIdentifier: SimpleTableViewCell.nibName)
     }
 }
 
 extension ExamplesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "SimpleTableViewCell", for: indexPath) as? SimpleTableViewCell {
-            cell.exampleLable.text = "Example 1!!!"
+        if let cell = tableView.dequeueReusableCell(withIdentifier: SimpleTableViewCell.nibName, for: indexPath) as? SimpleTableViewCell {
+            
+            switch indexPath.row {
+            case 0:
+                cell.exampleLable.text = "Example with Custom UIViewController"
+            case 1:
+                cell.exampleLable.text = "Example with Custom UIView"
+                
+            default:
+                break
+            }
+            
             return cell
         }
         return UITableViewCell()
@@ -57,33 +61,18 @@ extension ExamplesViewController: UITableViewDelegate {
         
         switch indexPath.row {
         case 0:
-            
             let customViewController = CustomViewController()
-            customViewController.view.backgroundColor = .red
             
             let actionSheet = ActionSheet(customViewController: customViewController)
+            actionSheet.isDismissableOnOutsideTap = true
             self.present(actionSheet, animated: true)
             
         case 1:
-            let customViewController = CustomViewController()
-            customViewController.view.backgroundColor = .green
-            
-            let actionSheet = ActionSheet(customViewController: customViewController)
-            self.present(actionSheet, animated: true)
-            
-        case 2:
-            
-            let customView = CustomView.loadNibName()
-            customView.backgroundColor = .green
-            
-            let actionSheet = ActionSheet(customView: customView)
-            self.present(actionSheet, animated: true)
-            
-        case 3:
             let customView = CustomView.loadNibName()
             customView.backgroundColor = .blue
             
             let actionSheet = ActionSheet(customView: customView)
+            actionSheet.isDismissableOnOutsideTap = true
             self.present(actionSheet, animated: true)
             
         default:

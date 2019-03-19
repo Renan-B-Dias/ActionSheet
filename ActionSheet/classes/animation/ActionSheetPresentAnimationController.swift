@@ -1,5 +1,5 @@
 //
-//  ActionSheetPresentAnimatedTransitioning.swift
+//  ActionSheetPresentAnimationController.swift
 //  ActionSheet
 //
 //  Created by Renan Benatti Dias on 27/02/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ActionSheetPresentAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
+final class ActionSheetPresentAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.3
