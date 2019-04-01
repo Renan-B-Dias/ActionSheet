@@ -125,6 +125,7 @@
 		8491C5BF2220C41100C413D4 = {
 			isa = PBXGroup;
 			children = (
+				84DFF15A22528E8500D949FB /* Source */,
 				8491C5CA2220C41100C413D4 /* ActionSheet */,
 				8491C5DF2220C41300C413D4 /* ActionSheetTests */,
 				8491C5EA2220C41300C413D4 /* ActionSheetUITests */,
@@ -146,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				84922F9D222C454A00C6C103 /* examples */,
-				8491C5FF2220D35C00C413D4 /* classes */,
 				8491C5CB2220C41100C413D4 /* AppDelegate.swift */,
 				8491C5D22220C41300C413D4 /* Assets.xcassets */,
 				8491C5D42220C41300C413D4 /* LaunchScreen.storyboard */,
@@ -173,18 +173,6 @@
 			path = ActionSheetUITests;
 			sourceTree = "<group>";
 		};
-		8491C5FF2220D35C00C413D4 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-				8479B2732227618D004B25DA /* actionSheet */,
-				8479B2622226FC4A004B25DA /* animation */,
-				8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */,
-				84D681942228CE77007586AD /* UIViewExtension.swift */,
-				84281507222A00F700FAE50B /* UIView+Constraints.swift */,
-			);
-			path = classes;
-			sourceTree = "<group>";
-		};
 		84922F9D222C454A00C6C103 /* examples */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +185,18 @@
 				8479B27022275B14004B25DA /* SimpleTableViewCell.xib */,
 			);
 			path = examples;
+			sourceTree = "<group>";
+		};
+		84DFF15A22528E8500D949FB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8479B2732227618D004B25DA /* actionSheet */,
+				8479B2622226FC4A004B25DA /* animation */,
+				8491C5FD2220D2E100C413D4 /* UIColorExtension.swift */,
+				84D681942228CE77007586AD /* UIViewExtension.swift */,
+				84281507222A00F700FAE50B /* UIView+Constraints.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
